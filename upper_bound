@@ -1,0 +1,31 @@
+// ekta number er lower bound ar upper bound same hole oi number ta array te nai
+// ekta number er lower bound holo oi number er first index 
+// ekta number er upper bound holo oi number er last index+1
+//code for upper bound
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   int a[4]={1,3,3,4};
+   int l=0,r=3;
+   int ans=4;
+   int tar;
+   cin>>tar;
+   while(l<=r)
+   {
+   	int mid=(l+r)/2;
+   	if(a[mid]<=tar)
+   	{
+   		l=mid+1;
+   	}
+   	else
+   	{
+   		ans=min(mid,ans);
+   		r=mid-1;
+   	}
+   }
+   cout<<ans<<endl;
+
+}
+//Author: Mehedi.cm
+//Created: 28 December 2020 (Monday) at 13:04
