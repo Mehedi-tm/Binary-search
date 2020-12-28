@@ -1,0 +1,26 @@
+// ekta number er lower bound ar upper bound same hole oi number ta array te nai
+// ekta number er lower bound holo oi number er first index 
+// ekta number er upper bound holo oi number er last index+1
+//code for upper bound
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   //stl function using array for upper and lower bound
+   int a[3]={1,2,3};
+   int up=upper_bound(a,a+3,3)-a;
+   int lo=lower_bound(a,a+3,3)-a;
+   cout<<up<<endl;
+   //stl function using vector for upper and lower bound
+   vector<int<a={1,2,3};
+   int up=upper_bound(a.begin(),a.end(),3)-a.begin();
+   int lo=lower_bound(a.begin(),a.end(),3)-a.begin();
+   cout<<up<<" "<<lo<<endl;
+   stl function for binary search
+   int ans=binary_search(a,a+3,4);
+   this function checks this function is still available in
+   this array or not..
+
+}
+//Author: Mehedi.cm
+//Created: 28 December 2020 (Monday) at 13:15
