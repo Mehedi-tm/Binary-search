@@ -1,7 +1,7 @@
 // ekta number er lower bound ar upper bound same hole oi number ta array te nai
-// ekta number er lower bound holo oi number er first index 
-// ekta number er upper bound holo oi number er last index+1
-//code for upper bound
+//ekta number er lower bound use kore amra oi number er index ber korte pari..ei index use kore oi number er age koita element ace ta pete pari. 
+//lower bound returns a pointer that returns a value that is not less than number..
+//upper bound returns a value that is always greater than given value..if not find then print always 0.
 #include<bits/stdc++.h>
 using namespace std;
 int main()
