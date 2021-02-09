@@ -20,7 +20,7 @@ int main()
    	}
    	else
    	{
-   		ans=min(mid,ans);
+   		ans=max(mid,ans);
    		r=mid-1;
    	}
    }
